@@ -127,6 +127,8 @@ height: 350px;
   color: #000000 !important;
   margin-right: 10px;
 }
+
+
 .btn-secondary:hover{
   background-color: #b8b8b8 !important;
 }
@@ -159,7 +161,13 @@ height: 350px;
   margin-top: 10px;
 }
 .dot{
-  margin-left: 50px;
+  margin-left: 30px;
+  color: #000000;
+  font-size: 22px;
+}
+.butt-dot{
+  border: none;
+  background-color: #fff;
 }
 .card{
   margin-bottom: 20px !important;
@@ -222,4 +230,136 @@ height: 350px;
   font-size: 13px;
   border-radius: 5px 5px 5px 5px;
   font-weight: 500;
+}
+
+.follow-button {
+  width: 60px;
+  height: 24px;
+  background-color: #EDEEF0;
+  border-radius: 14px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px
+}
+
+.followers-container {
+  align-items: center;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rec-class{
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.leave-group {
+  background-color: #fff !important;
+  color: #6A6A6B !important;
+  border: 1px solid gray !important; 
+}
+
+.icon-class {
+  margin-right: 5px;
+}
+.li-signup{
+  border: none;
+  background-color: #fff;
+  margin-left: 10px;
+}
+.li-signup:hover{
+background-color: #fff !important;
+}
+
+.modal-dialog {
+  max-width: 750px;
+}
+
+.common-form {
+  background-color: #F7F8fa;
+  border: 1px solid #D9D9Db;
+  height: 46px;
+  padding: 0px 10px;
+  width: 320px;
+}
+
+.name-container {
+  width: 320px;
+}
+
+.common-form-name {
+  width: 50%;
+  background-color: #F7F8fa;
+  border: 1px solid #D9D9Db;
+  height: 46px;
+  padding: 0px 10px;
+}
+
+.modal-content {
+  padding: 30px 30px;
+ 
+}
+
+.create-account-button {
+  height: 40px;
+  background-color: #2F6CE5;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.sign-up-button {
+  height: 38px;
+  background-color: #fff;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+  margin: 5px 0;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+.create-acc-text{
+  font-size: 20px;
+  font-weight: 700;
+}
+.acc-text{
+  font-size: 14px;
+}
+.sign-text{
+  color: #2F6CE5;
+}
+.top-section-modal{
+  background-color: #d2f5d8;
+  padding: 17px;
+  color: darkgreen;
+}
+.modal-content{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+.modal-cust{
+  padding: 10px 50px 50px 50px;
+  /* border: 1px; */
+   /* margin: 0px 10px 10px 10px ;  */
+}
+.cross{
+  margin-bottom: 10px;
+  border: none;
+  color: rgb(128, 128, 128);
+  margin-left: 724px;
+  background-color: #f2f2f2;
+  height: 28px;
+  width: 28px;
+  border-radius: 30px;
 }
