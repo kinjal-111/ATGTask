@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -60,206 +60,199 @@
           It's Free!
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><button class="li-signup" data-bs-toggle="modal" data-bs-target="#sign-in-modal" >Login</button></li>
+          <li><button class="li-signup" data-bs-toggle="modal" data-bs-target="#sign-in-modal">Login</button></li>
           <li>
             <hr class="dropdown-divider">
           </li>
-          <li><button class="li-signup" data-bs-toggle="modal" data-bs-target="#sign-up-modal" >Sign up</button></li>
+          <li><button class="li-signup" data-bs-toggle="modal" data-bs-target="#sign-up-modal">Sign up</button></li>
         </ul>
       </div>
     </div>
   </div>
 
-  
+
   <!-- Modal  -->
   <div class="modal fade" id="sign-in-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <button class="cross"> <i class="fas fa-times"></i></button>
       <div class="modal-content">
-        <p class="top-section-modal">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+        <p class="top-section-modal">Let's learn, share & inspire each other with our passion for computer engineering.
+          Sign up now 🤘🏼</p>
         <div class="d-flex flex-column modal-cust">
-           
+
           <div class="d-flex justify-content-between title-container">
             <div class="create-acc-text">Sign In</div>
             <div class="acc-text">Don't have an account yet?<span class="sign-text"> Create one</span></div>
           </div>
           <div class="signin-container d-flex">
-            <div class="form-container d-flex flex-column">
-              <!-- <div class="name-container d-flex">
-                <input class="common-form-name" type="text" placeholder="First Name" name="" id="">
-                <input class="common-form-name" type="text" placeholder="Last Name" name="" id="">
-              </div> -->
-              <input class="common-form" type="text" placeholder="Email"  name="" id="">
-              <input class="common-form" type="text" placeholder="Password"  name="" id="">
-              <!-- <input class="common-form" type="text" placeholder="Confirm Password"  name="" id=""> -->
-              <button class="create-account-button">Sign In</button>
-              <button class="sign-up-button">
-                <span><i class="fab fa-facebook"></i></span> Sign up With Facebook
-              </button>
-              <button class="sign-up-button">
-                <span><i class="fab fa-google"></i></span> Sign up With Google
-              </button>
+            <div class="row">
+              <div class="col-lg-6 text-center col-md-6 col-12 order-lg-1 order-md-1 order-sm-1">
+                <div class="form-container d-flex flex-column">
+                  <div class="d-flex flex-column justify-content-center">
+                    <!-- <div class="name-container d-flex">
+                      <input class="common-form-name" type="text" placeholder="First Name" name="" id="">
+                      <input class="common-form-name" type="text" placeholder="Last Name" name="" id="">
+                    </div> -->
+                    <input class="common-form" type="text" placeholder="Email" name="" id="">
+                    <input class="common-form" type="text" placeholder="Password" name="" id="">
+                    <!-- <input class="common-form" type="text" placeholder="Confirm Password" name="" id=""> -->
+                  </div>
+                  
+                  <button class="create-account-button">Create Account</button>
+                  <button class="sign-up-button">
+                    <span><i class="fab fa-facebook"></i></span> Sign up With Facebook
+                  </button>
+                  <button class="sign-up-button">
+                    <span><i class="fab fa-google"></i></span> Sign up With Google
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-6 text-center col-md-6 col-12 order-lg-2 order-md-2 order-sm-2">
+                <img style="width: 320px ; height: 320px" src="./images/modal.png" class="" alt="">
+              </div>
             </div>
-            <img style="width: 320px ; height: 320px" src="./images/modal.png" class="" alt="">
+            
           </div>
-          
-          </div>
-          
+
         </div>
+
       </div>
+    </div>
   </div>
   <!-- Modal ends -->
 
-   <!-- Modal  -->
+  <!-- Modal  -->
   <div class="modal fade" id="sign-up-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <button class="cross"> <i class="fas fa-times"></i></button>
       <div class="modal-content">
-        <p class="top-section-modal">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+        <p class="top-section-modal">Let's learn, share & inspire each other with our passion for computer engineering.
+          Sign up now 🤘🏼</p>
         <div class="d-flex flex-column modal-cust">
-           
+
           <div class="d-flex justify-content-between title-container">
             <div class="create-acc-text">Create Account</div>
             <div class="acc-text">Already have an account?<span class="sign-text"> Sign in</span></div>
           </div>
-          <div class="signin-container d-flex">
-            <div class="form-container d-flex flex-column">
-              <div class="name-container d-flex">
-                <input class="common-form-name" type="text" placeholder="First Name" name="" id="">
-                <input class="common-form-name" type="text" placeholder="Last Name" name="" id="">
+          <!-- <div class="signin-container d-flex"> -->
+          <div class="row">
+            
+            <div class="col-lg-6 text-center col-md-6 col-12 order-lg-1 order-md-1 order-sm-1">
+              <div class="form-container d-flex flex-column">
+                <div class="d-flex flex-column justify-content-center">
+                  <div class="name-container d-flex">
+                    <input class="common-form-name" type="text" placeholder="First Name" name="" id="">
+                    <input class="common-form-name" type="text" placeholder="Last Name" name="" id="">
+                  </div>
+                  <input class="common-form" type="text" placeholder="Email" name="" id="">
+                  <input class="common-form" type="text" placeholder="Password" name="" id="">
+                  <input class="common-form" type="text" placeholder="Confirm Password" name="" id="">
+                </div>
+                
+                <button class="create-account-button">Create Account</button>
+                <button class="sign-up-button">
+                  <span><i class="fab fa-facebook"></i></span> Sign up With Facebook
+                </button>
+                <button class="sign-up-button">
+                  <span><i class="fab fa-google"></i></span> Sign up With Google
+                </button>
               </div>
-              <input class="common-form" type="text" placeholder="Email"  name="" id="">
-              <input class="common-form" type="text" placeholder="Password"  name="" id="">
-              <input class="common-form" type="text" placeholder="Confirm Password"  name="" id="">
-              <button class="create-account-button">Create Account</button>
-              <button class="sign-up-button">
-                <span><i class="fab fa-facebook"></i></span> Sign up With Facebook
-              </button>
-              <button class="sign-up-button">
-                <span><i class="fab fa-google"></i></span> Sign up With Google
-              </button>
             </div>
-            <img style="width: 320px ; height: 320px" src="./images/modal.png" class="" alt="">
+            <div class="col-lg-6 text-center col-md-6 col-12 order-lg-2 order-md-2 order-sm-2">
+              <img style="width: 320px ; height: 320px" src="./images/modal.png" class="" alt="">
+            </div>
           </div>
-          
-          </div>
-          
+            
+            
+          <!-- </div> -->
+
         </div>
+
       </div>
+    </div>
   </div>
   <!-- Modal ends -->
 
-  
 
-  <div>
+  <section class="bgimage">
+    <div class="hero-container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h5 class="hero-title">Computer Engineering</h5>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div>
     <div class="image-container">
       <img class="hero-image" src="images/plant.png" alt="">
       <div class="img-text">Computer Engineering</div>
       <div class="sm-img-text">14,536 Computer Engineers follow this </div>
     </div>
-  </div>
+  </div> -->
   <div class="custom-container">
-    <div class="tabs d-flex bd-highlight mb-3 justify-content-md-between">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">All Posts(32)</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Article</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Event</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Job</a>
-        </li>
-      </ul>
-      <div>
+    <div class="row mb-2 mt-2">
+      <div class="col-lg-8 col-md-12 col-sm-12 mb-2">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active tabs-item" aria-current="page" href="#">All Posts(32)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link tabs-item" href="#">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link tabs-item" href="#">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link tabs-item" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link tabs-item" href="#">Job</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 mb-2">
         <button class="btn btn-secondary">Write a Post <span><i class="fas fa-caret-down"></i></span></button>
-        <button id="join-group" onclick="toCheck()" class="btn btn-primary"> <span><i class="fas fa-user-plus"></i> </span>Join Group</button>
+        <button id="join-group" onclick="toCheck()" class="btn btn-primary"> <span><i class="fas fa-user-plus"></i>
+          </span>Join Group</button>
       </div>
     </div>
-    <div  class="d-flex justify-content-between">
-      <div class="d-flex flex-column">
-      <div class="card" style="width: 34rem;">
-        <img src="images/card1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <span class="article">✍️ Article</span>
-          <h5 class="card-title">What if famous brands had regular fonts? Meet <span class="dot"><i class="fas fa-ellipsis-h"></i></span>RegulaBrands!</h5>
-          <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
-          <div class="d-flex justify-content-between bottom-card-container">
-            <div class="d-flex" class="profile-container">
-               <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" class="image-cover" alt="">
-               <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">Sarthak Kamra</div>
-            </div>  
-            <div class="d-flex">
-              <div class="views-container d-flex justify-content-between">
-                <i class="far fa-eye"></i>
-                <div style="margin-left: 10px;">1.4k views</div>
-              </div>
-              <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card" style="width: 34rem;">
-          <img src="images/card2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <span class="article">🔬️ Education</span>
-            <h5 class="card-title">What if famous brands had regular fonts? Meet <span class="dot"><i class="fas fa-ellipsis-h"></i></span>RegulaBrands!</h5>
-            <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
-            <div class="d-flex justify-content-between bottom-card-container">
-              <div class="d-flex" class="profile-container">
-                 <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" class="image-cover" alt="">
-                 <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">Sarah West</div>
-              </div>  
-              <div class="d-flex">
-                <div class="views-container d-flex justify-content-between">
-                  <i class="far fa-eye"></i>
-                  <div style="margin-left: 10px;">1.4k views</div>
-                </div>
-                <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
-              </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card" style="width: 34rem;">
-            <img src="images/card3.png" class="card-img-top" alt="...">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <div class="col-12">
+          <div class="card">
+            <img src="images/card1.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <span class="article">🗓️ Meetup</span>
-              <div class="d-flex">
-              <h5 class="card-title">Finance & Investment Elite Soc Mixer @Lujiazui </h5>
-
-              <div class="drop-down">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <span class="dot"><i  class="fas fa-ellipsis-h"></i></span>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Edit</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Report</a></li>
-                </ul>
-              </div>
-              </div>
-              
-              <div class="d-flex">
-                <p class="text-cal"><i class="far fa-calendar-alt cust-cal"></i>Fri, 12 Oct, 2018</p>
-                <p class="text-ahmed"><i class="fas fa-map-marker-alt cust-ahmed"></i>Ahmedabad</p>
-              </div>
-              <button class="website">Visit Website</button>
+              <span class="article">✍️ Article</span>
+              <!-- <div class="row"> -->
+                <!-- <div class="col-6"> -->
+                <div class="d-flex">
+                  <h5 class="card-title">What if famous brands had regular fonts? Meet Regular Brands !</h5>
+                  <!-- <div class="d-flex ellipsis-container"> -->
+                    <div class="flex-fill ellipsis-container">
+                    <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                  
+                <!-- </div> -->
+                <!-- <div class="col-6"> -->
+                  
+                <!-- </div> -->
+              <!-- </div> -->
+              <!-- <span class="dot"></span>RegulaBrands!</h5> -->
+              <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
               <div class="d-flex justify-content-between bottom-card-container">
                 <div class="d-flex" class="profile-container">
-                   <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" class="image-cover" alt="">
-                   <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">Sarthak Kamra</div>
-                </div>  
+                  <img
+                    src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg"
+                    class="image-cover" alt="">
+                  <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">
+                    Sarthak Kamra</div>
+                </div>
                 <div class="d-flex">
                   <div class="views-container d-flex justify-content-between">
                     <i class="far fa-eye"></i>
@@ -267,70 +260,149 @@
                   </div>
                   <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card">
+            <img src="images/card2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="article">✍️ Article</span>
+              <div class="d-flex">
+                <h5 class="card-title">What if famous brands had regular fonts? Meet Regular Brands !</h5>
+                <!-- <div class="d-flex ellipsis-container"> -->
+                  <div class="flex-fill ellipsis-container">
+                  <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <!-- </div> -->
+              </div>
+              <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+              <div class="d-flex justify-content-between bottom-card-container">
+                <div class="d-flex" class="profile-container">
+                  <img
+                    src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg"
+                    class="image-cover" alt="">
+                  <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">
+                    Sarthak Kamra</div>
+                </div>
+                <div class="d-flex">
+                  <div class="views-container d-flex justify-content-between">
+                    <i class="far fa-eye"></i>
+                    <div style="margin-left: 10px;">1.4k views</div>
+                  </div>
+                  <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
                 </div>
               </div>
             </div>
-
-            <div class="card" style="width: 34rem;">
-              <div class="card-body">
-                <span class="article">💼️ Job</span>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card">
+            <img src="images/card1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="article">✍️ Article</span>
+              <div class="d-flex">
+                <h5 class="card-title">What if famous brands had regular fonts? Meet Regular Brands !</h5>
+                <!-- <div class="d-flex ellipsis-container"> -->
+                  <div class="drop-down flex-fill ellipsis-container">
+                    <a class="ellipsis-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i  class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Report</a></li>
+                    </ul>
+                  </div>
+                  <!-- </div> -->
+              </div>
+              <div class="d-flex">
+                <p class="text-cal"><i class="far fa-calendar-alt cust-cal"></i>Fri, 12 Oct, 2018</p>
+                <p class="text-ahmed"><i class="fas fa-map-marker-alt cust-ahmed"></i>Ahmedabad</p>
+              </div>
+              <button class="website">Visit Website</button>
+              <div class="d-flex justify-content-between bottom-card-container">
+                <div class="d-flex" class="profile-container">
+                  <img
+                    src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg"
+                    class="image-cover" alt="">
+                  <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">
+                    Sarthak Kamra</div>
+                </div>
                 <div class="d-flex">
-                <h5 class="card-title">Finance & Investment Elite Soc Mixer @Lujiazui </h5>
-                <div class="drop-down">
-                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <span class="dot"><i  class="fas fa-ellipsis-h"></i></span>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Edit</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Report</a></li>
-                  </ul>
+                  <div class="views-container d-flex justify-content-between">
+                    <i class="far fa-eye"></i>
+                    <div style="margin-left: 10px;">1.4k views</div>
+                  </div>
+                  <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
                 </div>
               </div>
-                <div class="d-flex">
-                  <p class="text-cal"><i class="far fa-calendar-alt cust-cal"></i>Fri, 12 Oct, 2018</p>
-                  <p class="text-ahmed"><i class="fas fa-map-marker-alt cust-ahmed"></i>Ahmedabad</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card">
+            <img src="images/card1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="article">✍️ Article</span>
+              <div class="d-flex">
+                <h5 class="card-title">What if famous brands had regular fonts? Meet Regular Brands !</h5>
+                <!-- <div class="d-flex ellipsis-container"> -->
+                  <div class="flex-fill ellipsis-container">
+                  <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <!-- </div> -->
+              </div>
+              <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+              <div class="d-flex justify-content-between bottom-card-container">
+                <div class="d-flex" class="profile-container">
+                  <img
+                    src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg"
+                    class="image-cover" alt="">
+                  <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">
+                    Sarthak Kamra</div>
                 </div>
-                <button class="timesjob">Apply on timesjob</button>
-                <div class="d-flex justify-content-between bottom-card-container">
-                  <div class="d-flex" class="profile-container">
-                     <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" class="image-cover" alt="">
-                     <div style="display: flex; align-items: center; margin-left: 10px; font-size: 16px; color: #000;">Sarthak Kamra</div>
-                  </div>  
-                  <div class="d-flex">
-                    <div class="views-container d-flex justify-content-between">
-                      <i class="far fa-eye"></i>
-                      <div style="margin-left: 10px;">1.4k views</div>
-                    </div>
-                    <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
+                <div class="d-flex">
+                  <div class="views-container d-flex justify-content-between">
+                    <i class="far fa-eye"></i>
+                    <div style="margin-left: 10px;">1.4k views</div>
                   </div>
-                  </div>
+                  <button class="btn  btn-sm share-button" type="submit"><i class="fas fa-share-alt"></i></button>
                 </div>
               </div>
-           
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="location" class="loc-container">
-        <span><i class="fas fa-map-marker-alt"></i></span>
-        <input class="loc" type="text" placeholder="Noida, India" name="search">
-        <span><i class="fas fa-pen"></i></span>
-        <div class="text-loc">
-        <p><i class="fas fa-exclamation-circle"></i> Your location will help us to serve you better and extend a personalized service.</p>
-      </div>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <div id="location" class="loc-container">
+          <span><i class="fas fa-map-marker-alt"></i></span>
+          <input class="loc" type="text" placeholder="Noida, India" name="search">
+          <span><i class="fas fa-pen"></i></span>
+          <div class="text-loc">
+            <p><i class="fas fa-exclamation-circle"></i> Your location will help us to serve you better and extend a
+              personalized service.</p>
+          </div>
+        </div>
+    
       </div>
     </div>
+        
 
-    
-    
+
+
 
   </div>
+  
 
   <!-- script -->
   <script src="app.js"></script>
 </body>
-  
+
 
 
 </html>
