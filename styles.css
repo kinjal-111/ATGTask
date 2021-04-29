@@ -64,7 +64,9 @@
   align-items: center;
   margin-top: 5px;
 }
-
+.icon-search{
+  margin-right: 10px;
+}
 .create-account {
   display: flex;
   align-items: center;
