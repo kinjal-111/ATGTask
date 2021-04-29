@@ -19,6 +19,45 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="brand-logo">
+        <img class="logo-img" src="images/logo.png" alt="">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <form class="d-flex search-box" style="margin-left: auto; margin-right: auto;">
+            <i class="fa fa-search"></i>
+            <input class="custom-form" type="search" placeholder="Search" aria-label="Search">
+          </span>
+          
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+        <!-- <ul class="navbar-nav ml-auto search-box">
+          <button class="search" type="submit"><i class="fa fa-search"></i></button>
+          <input class="search-custom" type="text" placeholder="Search.." name="search">
+        </ul> -->
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>Create Account</span> It's Free!
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#sign-in-modal">Login</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item"data-bs-toggle="modal" data-bs-target="#sign-up-modal">Sign up</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
   <!-- <nav class="navbar navbar-custom navbar-expand-lg navbar-light  ">
   <div class="d-flex justify-content-between custom-container">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -86,7 +125,7 @@
     </div>
   </nav> -->
 
-  <div class="d-flex justify-content-around navbar-container">
+  <!-- <div class="d-flex justify-content-around navbar-container">
     <div class="brand-logo">
       <img class="logo-img" src="images/logo.png" alt="">
     </div>
@@ -112,7 +151,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- Modal  -->
@@ -128,9 +167,9 @@
             <div class="create-acc-text">Sign In</div>
             <div class="acc-text">Don't have an account yet?<span class="sign-text"> Create one</span></div>
           </div>
-          <div class="signin-container d-flex">
+          <!-- <div class="signin-container d-flex"> -->
             <div class="row">
-              <div class="col-lg-6 text-center col-md-6 col-12 order-lg-1 order-md-1 order-sm-1">
+              <div class="col-lg-6 text-center col-md-6 col-sm-12 order-lg-1 order-md-1 order-sm-1">
                 <div class="form-container d-flex flex-column">
                   <div class="d-flex flex-column justify-content-center">
                     <!-- <div class="name-container d-flex">
@@ -151,12 +190,12 @@
                   </button>
                 </div>
               </div>
-              <div class="col-lg-6 text-center col-md-6 col-12 order-lg-2 order-md-2 order-sm-2">
+              <div class="col-lg-6 text-center col-md-6 col-12 order-lg-2 order-md-2 order-sm-2 image-container">
                 <img style="width: 320px ; height: 320px" src="./images/modal.png" class="" alt="">
               </div>
             </div>
 
-          </div>
+          <!-- </div> -->
 
         </div>
 
@@ -184,10 +223,18 @@
             <div class="col-lg-6 text-center col-md-6 col-12 order-lg-1 order-md-1 order-sm-1">
               <div class="form-container d-flex flex-column">
                 <div class="d-flex flex-column justify-content-center">
-                  <div class="name-container d-flex">
-                    <input class="common-form-name" type="text" placeholder="First Name" name="" id="">
-                    <input class="common-form-name" type="text" placeholder="Last Name" name="" id="">
-                  </div>
+                  <!-- <div class="name-container d-flex"> -->
+                    <div class="row">
+                      <div class="col-6" style="padding-right: 0px  !important;">
+                        <input class="common-form-name" type="text" placeholder="First Name" name="" id="">
+                      </div>
+                      <div class="col-6" style="padding-left: 0px !important;">
+                        <input class="common-form-name" type="text" placeholder="Last Name" name="" id="">
+                        
+                      </div>
+                    </div>
+                    
+                  <!-- </div> -->
                   <input class="common-form" type="text" placeholder="Email" name="" id="">
                   <input class="common-form" type="text" placeholder="Password" name="" id="">
                   <input class="common-form" type="text" placeholder="Confirm Password" name="" id="">
@@ -202,7 +249,7 @@
                 </button>
               </div>
             </div>
-            <div class="col-lg-6 text-center col-md-6 col-12 order-lg-2 order-md-2 order-sm-2">
+            <div class="col-lg-6 text-center col-md-6 col-12 order-lg-2 order-md-2 order-sm-2 image-container">
               <img style="width: 320px ; height: 320px" src="./images/modal.png" class="" alt="">
             </div>
           </div>
