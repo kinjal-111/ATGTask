@@ -413,15 +413,7 @@ background-color: #fff !important;
   display: none;
 }
 
-.join-group-btn {
-  width: 100px;
-  height: 40px;
-  background-color: transparent;
-  color: white;
-  outline: none;
-  border: 1px solid #fff;
-  border-radius: 5px;
-}
+
 
 /* .ellipsis-button {
   font-size: 12px;
@@ -492,5 +484,15 @@ background-color: #fff !important;
   .join-group-row {
     display: block !important;
     padding-right: 10px;
+  }
+
+  .join-group-btn {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
   }
 }
